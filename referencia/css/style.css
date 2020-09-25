@@ -1,0 +1,61 @@
+html, body
+{
+    height: 100%;
+}
+
+#nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+#nav ul li{
+    margin-left: 1rem;
+}
+
+#header {
+    margin-bottom: 3rem;
+}
+
+#content
+{
+    min-height: 100%;
+}
+
+#footer
+{
+    position: relative;
+    clear: both;
+    padding: 20px;
+    float: right;
+}
+
+.main{
+    margin-bottom: 3rem;
+}
+
+img,
+p {
+  display: inline-block;
+}
+img {
+  height: 300px;
+  margin-left: 2rem;
+}
+p {
+  margin-left: 1rem;
+  max-width: 50%;
+}
+
+.banner {
+    min-height: 450px;
+}
+
+.form {
+    display: inline-block;
+    min-width: 45%;
+    min-height: 25%;
+}
+
+.form div {
+    padding: 10px;
+}
